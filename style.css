@@ -1,0 +1,82 @@
+/* Index-Page */
+body, html {
+	width: 100%;
+	overflow:auto;
+	margin-left: 0px;
+	margin-top: 0px;
+	background: #bfbfbf;
+	
+}
+.left {
+	float:left; 
+    width: 50%;
+	background:#404040;
+    height:100%;
+	overflow-y: scroll;
+	
+}
+.season {
+margin: auto;
+width: 400px;
+color: #bfbfbf;
+font-size: 48px;
+font-family: impact;
+}
+
+.right {
+	float:right; 
+    width: 50%;
+	background:#bfbfbf;
+    min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	
+}
+.series-picker {
+margin: auto;
+margin-top: 40px;
+width: 800px;
+color: #404040;
+font-family: Arial;
+}
+
+/* Bestgirl-Picker */
+h3{
+	font-family: Arial;
+	font-size: 20px;
+	color: #bfbfbf;
+	margin: 0;
+	text-align: center;
+	
+}
+
+.character {
+float:left;
+display:inline-block;
+max-height:180px;
+margin: 5px;
+}
+
+#dropzone .character {
+float: left;
+display: inline-block;
+max-width: 18%;
+margin: 7px;
+height: auto;
+max-height: 200px;
+}
+
+
+.series {
+	height: 220px;
+	display:block;
+}
+
+#dropzone {
+	width: 75%;
+	height:75%;
+	margin: auto;
+	background-color:#404040;
+	margin-top:10%;
+	
+}
